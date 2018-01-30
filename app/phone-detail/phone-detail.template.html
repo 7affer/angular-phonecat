@@ -1,7 +1,6 @@
 <div class="phone-images">
-  <img ng-src="{{img}}" class="phone"
-      ng-class="{selected: img === $ctrl.mainImageUrl}"
-      ng-repeat="img in $ctrl.phone.images" />
+  {# TODO - fix animations - probably problem with jQuery and minification #}
+  <img ng-src="{{$ctrl.mainImageUrl}}" class="phone" />
 </div>
 
 <h1>{{$ctrl.phone.name}}</h1>

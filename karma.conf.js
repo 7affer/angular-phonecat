@@ -12,8 +12,8 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       '**/*.module.js',
       '*!(.module|.spec).js',
-      '!(bower_components)/**/*!(.module|.spec).js',
-      '**/*.spec.js'
+      '!(bower_components|dist)/**/*!(.module|.spec).js',
+      '**/*.spec.js',
     ],
 
     autoWatch: true,

@@ -1,3 +1,4 @@
+app/dist/*
 logs/*
 !.gitkeep
 node_modules/
